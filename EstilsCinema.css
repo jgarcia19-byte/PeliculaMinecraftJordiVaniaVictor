@@ -1,0 +1,102 @@
+
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #5cb85c;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #5cb85c;
+            border-bottom: 2px solid #5cb85c;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #5cb85c;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #2d2d2d;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3d6b3d;
+            color: white;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        a {
+            color: #5cb85c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #7dd67d;
+            text-decoration: underline;
+        }
+        .character-section {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .minecraft-button {
+            display: inline-block;
+            background-color: #5cb85c;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+        .minecraft-button:hover {
+            background-color: #7dd67d;
+            text-decoration: none;
+        }
+        .pixel-art {
+            image-rendering: pixelated;
+        }
+        .trailer-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .trailer-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
